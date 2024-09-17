@@ -2,6 +2,7 @@ import qrcode
 
 # insert URL here:
 url = ""
+
 qr = qrcode.QRCode(
     version=1,  # Controls the size of the QR code
     error_correction=qrcode.constants.ERROR_CORRECT_M,  # Error correction level
